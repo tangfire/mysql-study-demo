@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/DDL/数据库操作.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/DDL/数据类型.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/DDL/表操作-修改-删除.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/DDL/表操作-修改.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/DDL/表操作-创建-查询.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/DML/插入.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/DML/更新和删除.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/SQL/DCL/权限控制.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/SQL/DCL/用户管理.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/SQL/DDL/数据库操作.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/SQL/DDL/数据类型.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/SQL/DDL/表操作-修改-删除.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/SQL/DDL/表操作-修改.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/SQL/DDL/表操作-创建-查询.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/SQL/DML/插入.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/SQL/DML/更新和删除.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/SQL/DQL/分组查询.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/SQL/DQL/分页查询.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/SQL/DQL/基础查询.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/SQL/DQL/执行顺序.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/SQL/DQL/排序查询.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/SQL/DQL/条件查询.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/SQL/DQL/案例练习.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/SQL/DQL/聚合函数.sql" dialect="MySQL" />
     <file url="PROJECT" dialect="MySQL" />
   </component>
 </project>
