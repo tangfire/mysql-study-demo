@@ -18,6 +18,27 @@
     <file url="file://$PROJECT_DIR$/src/main/java/com/fire/SQL/DQL/条件查询.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/fire/SQL/DQL/案例练习.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/fire/SQL/DQL/聚合函数.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/事务/事务操作.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/事务/并发事务隔离级别.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/函数/字符串函数.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/函数/数值函数.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/函数/日期函数.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/函数/流程函数.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/多表查询/内连接.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/多表查询/列子查询.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/多表查询/外连接.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/多表查询/多表关系-一对一.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/多表查询/多表关系-多对多.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/多表查询/多表查询.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/多表查询/多表查询案例-练习.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/多表查询/标量子查询.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/多表查询/组合查询union.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/多表查询/自连接.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/多表查询/行子查询.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/多表查询/表子查询.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/约束/外键删除更新行为.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/约束/外键约束.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/约束/约束演示.sql" dialect="MySQL" />
     <file url="PROJECT" dialect="MySQL" />
   </component>
 </project>
