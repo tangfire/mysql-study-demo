@@ -21,25 +21,33 @@ EXPLAIN SELECT * FROM users WHERE age > 30;
 
 2. **select_type**  
    查询类型，常见值：
-    - `SIMPLE`：简单查询（无子查询或UNION）。
-    - `PRIMARY`：最外层查询。
-    - `SUBQUERY`：子查询中的第一个SELECT。
+    - `SIMPLE`：简单表，即不使用表连接或者子查询
+    - `PRIMARY`：主查询，即外层的查询
+    - `SUBQUERY`：SELECT/WHERE之后包含了子查询
+    - `UNION`：UNION中的第二个或者后面的查询语句
 
 3. **type**（关键性能指标）  
    访问类型，按性能从高到低排序：
+    - `NULL`
     - `system`/`const`：通过主键或唯一索引访问单行（最优）。
     - `eq_ref`：关联查询中使用主键/唯一索引。
     - `ref`：使用非唯一索引查找。
     - `range`：索引范围扫描（如`BETWEEN`）。
+    - `index`
     - `ALL`：全表扫描（需优化）。
 
 4. **possible_keys** & **key**  
    分别显示可能使用的索引和实际使用的索引。若`key`为`NULL`，说明未使用索引。
+5. **Key_len**
+   表示索引中使用的字节数，该值为索引字段最大可能长度，并非实际使用长度，在不损失精确性的前提下，长度越短越好。
 
-5. **rows**  
+
+6. **rows**  
    MySQL预估需要扫描的行数。数值越大，潜在性能问题越严重。
+7. **filtered**
+   表示返回结果的行数占需读取行数的百分比，filtered的值越大越好。
 
-6. **Extra**  
+8. **Extra**  
    额外信息，常见值：
     - `Using index`：覆盖索引（无需回表）。
     - `Using temporary`：使用临时表（常见于`GROUP BY`）。
