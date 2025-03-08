@@ -28,4 +28,9 @@ select * from student s where s.student_no in (select sc.student_no from student
 explain select * from student s where s.student_no in (select sc.student_no from student_course sc where sc.course_no = (select course_no from course c where c.name like '%Java%'));
 
 
+show index from user_info;
+
+
+
+
 
