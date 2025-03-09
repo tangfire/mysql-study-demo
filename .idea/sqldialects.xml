@@ -39,6 +39,18 @@
     <file url="file://$PROJECT_DIR$/src/main/java/com/fire/基础/约束/外键删除更新行为.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/fire/基础/约束/外键约束.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/fire/基础/约束/约束演示.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/进阶/SQL优化/count优化.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/进阶/SQL优化/group by优化.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/进阶/SQL优化/limit优化.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/进阶/SQL优化/order by优化.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/进阶/SQL优化/update优化.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/进阶/存储对象/存储函数/存储函数.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/进阶/存储对象/视图/介绍及基本语法.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/进阶/存储对象/视图/更新及作用.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/进阶/存储对象/视图/案例.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/进阶/存储对象/视图/检查选项-cascaded.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/进阶/存储对象/视图/检查选项-local.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/进阶/存储对象/触发器/案例.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/fire/进阶/存储引擎/存储引擎.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/fire/进阶/索引/使用规则-SQL提示.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/fire/进阶/索引/使用规则-前缀索引.sql" dialect="MySQL" />
