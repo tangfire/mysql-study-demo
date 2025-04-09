@@ -63,6 +63,7 @@
     <file url="file://$PROJECT_DIR$/src/main/java/com/fire/进阶/索引/性能分析-慢查询日志.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/fire/进阶/索引/性能分析-查看执行频次.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/fire/进阶/索引/索引语法.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/fire/进阶/锁/表级锁.sql" dialect="MySQL" />
     <file url="PROJECT" dialect="MySQL" />
   </component>
 </project>
